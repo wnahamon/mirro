@@ -63,10 +63,12 @@ a{
 		}
 	}
 }
+
 .main{
-	background: url("../img/BG.png") no-repeat center center / cover;
+	
 	padding: 100px 0;
 	&-wrapper{
+		background: url("../img/BG.png") no-repeat center center / cover;
 		display: flex;
 		gap: 64px;
 	}
@@ -78,6 +80,36 @@ a{
 	&-txt{
 		font-size: 16px;
 		color: $main-color-2;
-		margin-bottom: 17px; 	
+		margin-bottom: 17px; 
+		line-height: 22.5px;	
 	}
+
+}
+.logo-s2{
+	padding-top: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+.container{
+	background: url(../img/Rectangle.svg) no-repeat center center/cover;
+}
+.txt_s2{
+	text-align: center;
+
+}
+.hl{
+	font-size: 36px;
+}
+.sub-hl{
+	padding-top: 11px;
+	line-height: 22.5px;
+	font-size: 16px;
+}
+.card{
+	width:379px ;
+	height:304px ;
+	background-color: #F4F3F0;
+	border-radius: 16px;
 }
